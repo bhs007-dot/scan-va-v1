@@ -1,65 +1,61 @@
-Automated Vulnerability Assessment & Exploitation Script
-Banner License
+# Automated Vulnerability Assessment & Exploitation Script
 
-Overview
-This tool is an automated vulnerability assessment and exploitation framework for penetration testers and security professionals. It integrates Nmap, Dalfox, Nuclei, SQLmap, and Metasploit to provide a streamlined workflow for scanning, identifying, and exploiting vulnerabilities, as well as generating professional PDF reports.
+![Banner](https://img.shields.io/badge/Python-3.8%2B-blue) ![License](https://img.shields.io/badge/license-IT%20Solutions%20007-green)
 
-Author: IT Solutions 007
+## Overview
 
-Instagram: @itsolutions007
+**File:** `SCAN-VA-v5.py`
 
-Features
-Nmap Integration:
+This tool is an **automated vulnerability assessment and exploitation framework** for penetration testers and security professionals. It integrates Nmap, Dalfox, Nuclei, SQLmap, and Metasploit to provide a streamlined workflow for scanning, identifying, and exploiting vulnerabilities, as well as generating professional PDF reports.
 
-Quick, service/version, OS, and full port scans
-Vulnerability detection with CVE extraction
-Web Vulnerability Scanning:
+**Author:** IT Solutions 007  
+**Instagram:** [@itsolutions007](https://instagram.com/itsolutions007)
 
-Dalfox for XSS
-Nuclei for web vulnerabilities
-SQLmap for SQL injection
-Metasploit Automation:
+---
 
-Maps detected CVEs to Metasploit modules
-Launches exploitation modules in a new terminal
-Network Traffic Analysis:
+## Features
 
-Automated capture and analysis using tshark/Wireshark
-PDF Reporting:
+- **Nmap Integration:**  
+  - Quick, service/version, OS, and full port scans
+  - Vulnerability detection with CVE extraction
 
-Generates a comprehensive PDF report of findings
-User-Friendly Menu:
+- **Web Vulnerability Scanning:**  
+  - Dalfox for XSS
+  - Nuclei for web vulnerabilities
+  - SQLmap for SQL injection
 
-Interactive CLI for all features
-Requirements
-Python 3.8+
-Nmap
-Dalfox
-Nuclei
-SQLmap
-Metasploit Framework
-tshark
-Python packages: requests, fpdf, qrcode
+- **Metasploit Automation:**  
+  - Maps detected CVEs to Metasploit modules
+  - Launches exploitation modules in a new terminal
+
+- **Network Traffic Analysis:**  
+  - Automated capture and analysis using tshark/Wireshark
+
+- **PDF Reporting:**  
+  - Generates a comprehensive PDF report of findings
+
+- **User-Friendly Menu:**  
+  - Interactive CLI for all features
+
+---
+
+## Requirements
+
+- **Python 3.8+**
+- [Nmap](https://nmap.org/)
+- [Dalfox](https://github.com/hahwul/dalfox)
+- [Nuclei](https://github.com/projectdiscovery/nuclei)
+- [SQLmap](https://github.com/sqlmapproject/sqlmap)
+- [Metasploit Framework](https://www.metasploit.com/)
+- [tshark](https://www.wireshark.org/docs/man-pages/tshark.html)
+- Python packages: `requests`, `fpdf`, `qrcode`
+
 Install Python dependencies:
-
-bash
-
-Copy
+```bash
 pip install requests fpdf qrcode
-Usage
-Clone the repository:
-
-bash
-
-Copy
-git clone https://github.com/yourusername/yourrepo.git
-cd yourrepo
-Run the script:
-
-bash
-
-Copy
-python3 yourscript.py
+git clone https://github.com/bhs007-dot/SCAN-VA-v5.git
+cd SCAN-VA-v5
+python3 SCAN-VA-v5.py
 Follow the interactive menu to perform scans, exploit vulnerabilities, and generate reports.
 
 Example Workflow
