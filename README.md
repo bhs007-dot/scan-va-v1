@@ -1,5 +1,9 @@
 # Automated Vulnerability Assessment & Exploitation Script
 
+Donate for me over crypto BTC ADDRESS 
+12zsQF6XgiNtu5SgGUgi5R66DwhTyPTSaN
+
+
 ![Banner](https://img.shields.io/badge/Python-3.8%2B-blue) ![License](https://img.shields.io/badge/license-IT%20Solutions%20007-green)
 
 ## Overview
